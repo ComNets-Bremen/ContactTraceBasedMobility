@@ -1,0 +1,17 @@
+OMNeT++ Discrete Event Simulation  (C) 1992-2018 Andras Varga, OpenSim Ltd.
+Version: 5.4.1, build: 180629-5e28390, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ./:  3
+Loading NED files from /home/ramesh/OPS/modules/inet/src/:  704
+
+Preparing for running configuration General, run #0...
+Redirecting output to file "/home/ramesh/ContactMMCheck/results/General-0-20190212-23:40:07-17962-log5.txt"...
+
+End.
+
+real	0m15,281s
+user	0m14,944s
+sys	0m0,316s

@@ -1,0 +1,48 @@
+
+*** These modified files were found in JOE when it aborted on Thu Dec 20 14:43:37 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+.bashrc
+.bashrc
+bla
+bla.txt
+/home/ramesh/ContactMMCheck/build.sh
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Thu Dec 20 14:43:51 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+.bashrc
+.bashrc
+bla
+bla.txt
+/home/ramesh/ContactMMCheck/build.sh
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Sun Mar 24 12:55:14 2019
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+.bashrc
+.bashrc
+bla
+bla.txt
+/home/ramesh/ContactMMCheck/Makefile
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
