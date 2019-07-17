@@ -1,0 +1,18 @@
+#ContactMMcheck
+
+Using contact traces in simulations intead of mobility models is the main purpose of this project.This involves two main steps, Generating contact traces and running simulations with contact traces. ContactMMCheck code is used to generate contact traces. Both synthetic models and real traces can be used to generate contact traces. Contact trace differ from a normal trace because it carries contact infromation (contact start time, Neighbour ID, Contact end time) instead of location information. ContactMMCheck code is capable of generating contact traces per node. This means every node will have its own contact trace file in txt format. The contacts will be sorted in the asceding order according to the contact start time because this will help to minimize the complexity in the reading mechanism in the simulator. To generate contact traces following steps must be followed.
+
+1. After downloading open build.sh and run.sh files and change the inet path properly. In build.sh there are two places to change the path and in run.sh only in one place.
+
+2. Then open the omnetpp.ini file and configure the file.
+	This can be configured to run with synthetic models or with real traces. If real traces are used those trace files must be copied into the ContactMMCheck main folder.
+
+3. Open WirelessInterface.cc file and update Time parameter in begining to the simulation Time
+
+4. Execute build,sh
+
+5. Execute run.sh
+
+6. Contact traces will be available in the Results folder
+
+Depending on the number of nodes configured, the number of output files can vary. Now the first step of generating contact traces is done and second step of running simulations must be carried out. To run the simulations the OPS(Opportunistic Protocol Simulator) should be downloaded.
