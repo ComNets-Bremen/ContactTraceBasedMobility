@@ -1,0 +1,21 @@
+#OPS_ContactTraceBased
+
+Using contact traces in simulations intead of mobility models is the main purpose of this project.This involves two main steps, Generating contact traces and running simulations with contact traces. To generate contact traces ContactMMCheck code must be used. This code is about the second step of running simulations with the contact traces and it is a modification done to a existing protocol. First the main simulator should be downloaded.  
+
+1.Download OPS from https://github.com/ComNets-Bremen/OPS
+
+2.Follow the instructions in the README file from the main OPS folder.
+
+3.After getting normal OPS to work, copy and replace KwirelessInterface.cc and KwirelessInterface.h files from the OPS_ContactTraceBased to the src folder in main OPS path. 
+
+4.Set the numberOfLines parameter in the beginning of KwirelessInterface.cc as you wish
+	numberOfLines means how many lines should be read from the trace file once. This is set as parameter to control the memory usage during the simulation run.
+
+5.Configure .ini file in the simulation folder.
+
+6.Copy the Contact Trace files from the ContactMMCheck to the main OPS folder.
+
+7.Run the simulation as mentioned in the main OPS readme file.
+
+Now the simulation is running with the contact traces. If the mobility scenario is not changing the same contact traces can be used to run multiple simulations.  
+ 
